@@ -1,4 +1,4 @@
-hosts: local
+- hosts: local
   become: true
   tasks:
     - name: Install required components
